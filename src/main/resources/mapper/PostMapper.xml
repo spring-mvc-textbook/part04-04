@@ -3,7 +3,7 @@
 
 <mapper namespace="postMapper">
 
-    <resultMap id="postResultMap" type="com.example.spring.post.PostsDto">
+    <resultMap id="postResultMap" type="com.example.spring.post.PostDto">
         <result property="id" column="ID" />
         <result property="title" column="TITLE" />
         <result property="content" column="CONTENT" />
