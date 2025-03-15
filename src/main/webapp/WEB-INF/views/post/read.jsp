@@ -46,7 +46,7 @@
 <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form id="deleteForm" action="/posts/${postsVo.id}/delete" method="POST">
+            <form id="deleteForm" action="/posts/${post.id}/delete" method="POST">
                 <%-- modal-header --%>
                 <div class="modal-header">
                     <h1 class="modal-title fs-5 text-danger" id="deleteModalModalLabel">
